@@ -2,6 +2,8 @@
 
 Accelerator viewer. Top for mobile SoCs.
 
+(originally written for [Michael137/reasoned-soc](https://github.com/Michael137/reasoned-soc))
+
 [![Build Status](https://travis-ci.com/Michael137/atop.svg?branch=main)](https://travis-ci.com/Michael137/atop)
 
 # Building repo
