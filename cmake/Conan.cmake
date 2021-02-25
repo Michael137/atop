@@ -22,6 +22,7 @@ conan_cmake_run(
   spdlog/1.8.2
   # date/2.4.1
   re2/20210202
+  ogg/1.3.4
   OPTIONS
   ${CONAN_EXTRA_OPTIONS}
   BASIC_SETUP
