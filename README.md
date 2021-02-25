@@ -21,3 +21,8 @@ make -j$(nproc)
 2. From this directory run `./build/bin/atop --verbose`. If you run it inside a directory without a `imgui.ini` the application window layout may break and you will have to repostition them manually. The `imgui.ini` file provided in this repo is based on a 15" Macbook Pro so it might look different on your machine. Below is a reference picture to what it should look like. Once you reposition the windows to your desire the application will save the layout for the next run.
 
 ![atop](./atop_layout.png)
+
+# Supported Performance Measurement Backends
+- TFlite benchmark utility (both the command-line tool and Android wrapper)
+- SNPE benchmark utility
+- MLPerf (experimental support)
